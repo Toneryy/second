@@ -42,7 +42,8 @@ header, .first {
 
 .header-wrapper {
     padding-top: 34px;
-    max-width: 1109px;
+    max-width: 1110px; 
+    /* 1109 */
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -275,7 +276,7 @@ purple {
 .fourth {
     padding-top: 100px;
     background: url('./data/Rectangle 594.png');
-    background-position: center top 300px;
+    background-position: center top left 70px;
     background-size: cover;
     height: 100%;
     padding-bottom: 124.34px;
@@ -340,4 +341,233 @@ purple {
 
 .step:last-child {
     margin-top: -60px;
+}
+
+
+/* FIFTH SECTION STYLES */
+.fifth {
+    background: rgba(242, 247, 255, 0.5);
+}
+
+.reviews-title-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-title-wrapper img {
+    position: absolute;
+    padding-left: 1000px;
+}
+
+.reviews-title {
+    color: #1D2530;
+    padding-top: 17px;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.slider-wrapper {
+
+}
+
+.card-list {
+    padding-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 540px;
+    height: 304px;
+}
+
+.card-box {
+    height: 234px;
+    width: 540px;
+    background: url('./data/Card.png') no-repeat center;
+    overflow: hidden;
+}
+
+.card-box h3 {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 32px 32px 0px 32px;
+}
+
+.card-box p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 32px 70px 32px;
+}
+
+.author {
+    padding-top: 14px;
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 160px;
+}
+
+.author img {
+    width: 56px;
+    height: 56px;
+}
+
+.bio {
+    padding-left: 16px;
+}
+
+.name {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.email {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+/* SIXTH SECTION */
+
+
+.join-container {
+    justify-content: center;
+    background: url('./data/Join.png') no-repeat;
+    margin: 90px 0px;
+    width: 100%;
+    height: 288px;
+}
+
+.join-title {
+    color: white;
+    padding: 48px 185px 0px 480px;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 33px;
+    line-height: 41px;
+    text-align: left;
+}
+
+.email-subscription {
+    margin: 32px 262px 74px 480px;
+    display: flex; /* Размещаем элементы рядом друг с другом */
+    width: 368px; 
+    height: 52px;
+  }
+  
+  .email-input {
+    color: #474A57;
+    width: 248px;
+    padding: 14px 16px;
+    border: none; /* Убираем стандартную границу */
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    outline: none; /* Убираем обводку при фокусе */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .submit-button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 120px;
+    background-color: #18191F;
+    color: #ffffff;
+    padding: 14px 24px;
+    border: none; /* Убираем стандартную границу */
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer; /* Меняем курсор на указатель */
+    transition: background-color 0.3s; /* Плавный переход цвета при наведении */
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #333333; /* Цвет при наведении */
+  }
+
+
+/* FOOTER */
+
+
+.footer-wrapper {
+
+}
+
+.footer-container {
+    background: #1D2530;
+    height: 520px;
+}
+
+.information-box {
+    margin: 0 auto;
+    padding-top: 104px;
+    padding-bottom: 78px;
+    max-width: 1110px;
+    height: 448px;
+    display: flex;
+}
+
+.first-column {
+    color: #ffffff;
+    padding-top: 7px;
+}
+
+.first-column img {
+    padding-left: 3px;
+}
+
+.first-column h3 {
+    padding-top: 10px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.second-column {
+    color: #EEEFF4;
+    margin-left: 389px;
+}
+
+.second-column ul {
+    padding-top: 32px;
+}
+
+.column-highlight {
+    color: #F4F5F7;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.third-column {
+    color: #EEEFF4;
+}
+
+.copyright-box {
+    color: #D9DBE1;
+    background: #141B23;
+    height: 72px;
+}
+
+.copyright-box p {
+    margin: 0 auto;
+    max-width: 1110px;
 }
