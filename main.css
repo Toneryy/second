@@ -36,7 +36,11 @@ body {
 }
 
 
-header {
+header, .first {
+    background: url('./data/BG.png');
+}
+
+.header-wrapper {
     padding-top: 34px;
     max-width: 1109px;
     margin: 0 auto;
@@ -59,15 +63,17 @@ header {
 
 
 
-main {
+
+.third {
     max-width: 1133px;
     margin: 0 auto;
 }
 
-
 .first {
     padding-top: 122px;
     display: flex;
+    padding-bottom: 50px;
+    /* background: rgba(242, 247, 255, 0.5); */
 }
 
 
@@ -105,9 +111,19 @@ purple {
 }
 
 
-.second {
-    padding-top: 155px;
+.wrapper {
+    max-width: 1123px;
+    margin: 0 auto;
+}
+
+.container {
     display: flex;
+}
+
+.second {
+    padding-top: 105px;
+    padding-bottom: 82px;
+    background: rgba(242, 247, 255, 0.5);
 }
 
 
@@ -125,12 +141,29 @@ purple {
     padding-top: 68px;
     display: flex;
     flex-direction: column;
+    height: 66px;
     gap: 48px;
 }
 
 .description-point {
     display: flex;
+    gap: 26px;
 }
+
+.first-desc {
+    height: 92px;
+}
+
+.point-container {
+    width: 428px;
+    justify-content: center;
+}
+
+.first-point {
+    height: 92px;
+    margin-top: -8px;
+}
+
 
 .point-title {
     font-family: 'Gilroy-SemiBold', sans-serif;
@@ -139,7 +172,172 @@ purple {
 }
 
 .point-text {
+    padding-top: 8px;
     font-family: 'Gilroy-Regular', sans-serif;
     font-size: 16px;
     line-height: 26px;
+}
+
+.second-point {
+    margin-top: 7px;
+}
+
+
+/* Third section styles start */
+
+.third {
+    padding-top: 100px;
+}
+
+.prices-title {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.prices-subtitle {
+    padding-top: 16px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.price-list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.suggestion {
+    width: 350px;
+    height: 387px;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.suggestion-title {
+    width: 350px;
+    height: 61px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: rgba(104, 94, 214, 0.05);
+    padding: 7px 114px;
+}
+.suggestion-title h3 {
+    color: #685ED6;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.suggestion-container {
+    background-color: #FCFEFF;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.suggestion-subtitle {
+    color: #1D2530;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    padding: 40px 48px 0px 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.suggestion-price {
+    color: #1D2530;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 32px 29px 46px 29px;
+    text-align: center;
+}
+
+.connect-by {
+    color: white;
+    width: 287px;
+    height: 48px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    background: #685ED6;
+    margin-left: 31px;
+    margin-right: 32px;
+    border-radius: 6px;
+}
+
+
+.fourth {
+    padding-top: 100px;
+    background: url('./data/Rectangle 594.png');
+    background-position: center top 300px;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 124.34px;
+}
+
+.steps-title {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.line {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.steps {
+    display: flex;
+    gap: 182px;
+}
+
+.step {
+    width: 255px;
+}
+
+.step-title {
+    padding-top: 16px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.step-text {
+    padding-top: 4px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.first-img {
+    padding-top: 56px;
+}
+
+.second-img {
+    padding-top: 26.42px;
+}
+
+.third-img {
+    padding-top: 56px;
+}
+
+.step img:last-child {
+    float: right;
+}
+
+.step:first-child {
+    margin-top: -60px;
+}
+
+.step:last-child {
+    margin-top: -60px;
 }

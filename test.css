@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(./fonts/Gilroy-Bold.ttf) format('truetype');
+}
+  
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(./fonts/Gilroy-Medium.ttf) format('truetype');
+}
+  
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(./fonts/Gilroy-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: local('Gilroy-Regular'), url(./fonts/Gilroy-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'), url(./fonts/Gilroy-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'), url(./fonts/Gilroy-SemiBold.ttf) format('truetype');
+}
+
+
+
+body {
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #1D2530;
+}
+
+header {
+    padding-top: 34px;
+    max-width: 1109px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header-line {
+    padding-top: 10px;
+    display: flex;
+    gap: 63.33px;
+    padding-left: 436px;
+}
+
+
+.header-element {
+    font-size: 20px;
+}
+
+.wrapper {
+    max-width: 1123px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.first {
+    padding-top: 122px;
+    display: flex;
+}
+
+
+.connect-title {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 50px;
+}
+
+.purple {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    color: #685ED6;
+}
+
+purple {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    color: #685ED6;
+}
+
+.connect-text {
+    padding-top: 24px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 24px;
+    width: 482px;
+}
+
+
+.connect {
+    margin-top: 32px;
+    width: 168px;
+    height: 48px;
+    background: #685ED6;
+    padding: 12px 32px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+.second {
+    padding-top: 155px;
+    padding-bottom: 82px;
+}
+
+
+.description-title {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 50px;
+}
+
+.point-img {
+    width: 68px; 
+    height: 68px; 
+}
+
+.description-text {
+    padding-top: 68px;
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    gap: 48px;
+}
+
+.description-point {
+    display: flex;
+    gap: 26px;
+}
+
+.first-desc {
+    height: 92px;
+}
+
+.point-container {
+    width: 428px;
+    justify-content: center;
+}
+
+.first-point {
+    height: 92px;
+    margin-top: -8px;
+}
+
+
+.point-title {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.point-text {
+    padding-top: 8px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.second-point {
+    margin-top: 7px;
+}
